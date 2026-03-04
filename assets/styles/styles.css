@@ -133,8 +133,10 @@ body {
 
 .banner-title {
     font-size: 3.5rem;
-    font-weight: 800;
+    font-weight: 400;
     margin-bottom: 1rem;
+    font-family: "Story Script", sans-serif;
+    font-style: normal;
 }
 
 .highlight {
