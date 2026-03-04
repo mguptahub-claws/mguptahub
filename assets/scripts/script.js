@@ -154,6 +154,9 @@ async function loadBlogs() {
                 <h3>${blog.title}</h3>
                 <p>${blog.excerpt}</p>
                 ${tags ? `<div class="blog-tags">${tags}</div>` : ''}
+                <button class="blog-open-new" onclick="event.stopPropagation(); window.open('#/blog/${blog.id}', '_blank');" title="Open in new tab">
+                    <i class="fas fa-external-link-alt"></i>
+                </button>
             `;
 
             grid.appendChild(card);
