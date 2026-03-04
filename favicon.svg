@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#1a1a1a" />
+  
+  <!-- M text - using Inter font to match logo -->
+  <text x="256" y="320" font-family="'Playfair Display', serif" font-size="280" font-weight="700" text-anchor="middle" fill="#ffffff">M</text>
+  
+  <!-- Accent element -->
+  <circle cx="390" cy="320" r="55" fill="#f97316" />
+</svg>

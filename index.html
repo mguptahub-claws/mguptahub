@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Gupta - Engineering Leader & Entrepreneur</title>
+    <meta name="description" content="Engineering Leader, Entrepreneur, and Solution Architect. Building innovative tools and open-source solutions.">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="logo.svg" alt="mguptahub" class="logo-img logo-light">
+                <img src="logo-dark.svg" alt="mguptahub" class="logo-img logo-dark">
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#blogs" class="nav-link">Blogs</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner" id="home">
+        <div class="container">
+            <div class="banner-content">
+                <h1 class="banner-title">
+                    Hi, I'm <span class="highlight">Manish Gupta</span>
+                </h1>
+                <p class="banner-subtitle">Engineering Leader & Entrepreneur</p>
+                <p class="banner-description">
+                    Building innovative tools and solutions. Expert in solution architecture, full-stack development, and creating impactful technology. Passionate about open-source contributions.
+                </p>
+                <div class="banner-buttons">
+                    <a href="#work" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a developer, entrepreneur, and expert in solutioning. I've created various tools throughout my career, several of which are open-sourced on GitHub.</p>
+                <p>I specialize in building scalable applications, designing system architectures, and solving complex technical challenges with elegant, efficient solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Work Section -->
+    <section class="section section-alt" id="work">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div id="projectsGrid" class="projects-grid">
+                <!-- Projects loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div id="skillsContainer" class="skills-container">
+                <!-- Skills loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section class="section section-alt" id="blogs">
+        <div class="container">
+            <h2 class="section-title">Blogs</h2>
+            <div id="blogsGrid" class="blogs-grid">
+                <!-- Blogs loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Viewer (hidden by default) -->
+    <div id="blogViewer" class="blog-viewer" style="display: none;">
+        <div class="container">
+            <button onclick="window.location.hash='#blogs'" class="btn-back">
+                <i class="fas fa-arrow-left"></i> Back to Blogs
+            </button>
+            <div id="blogContent" class="blog-content">
+                <!-- Blog content loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:connect@mguptahub.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <span>connect@mguptahub.com</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mgupta-me/" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <span>Connect with me</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/mguptahub/" target="_blank" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <strong>GitHub</strong>
+                                <span>View my code</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="ca213022-1795-4534-b6f1-8be6896a5911">
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <!-- hCaptcha Widget -->
+                    <div class="form-group">
+                        <div class="h-captcha" data-sitekey="a54cd71a-2d8a-4620-9a52-2ae04be23990"></div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Manish Gupta. Built with passion.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- hCaptcha Script -->
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
+    <!-- Marked.js for Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>

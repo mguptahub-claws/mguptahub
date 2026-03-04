@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Cloud Dashboard",
+    "description": "A comprehensive cloud monitoring dashboard with real-time metrics and analytics.",
+    "tech": ["React", "Node.js", "Docker"],
+    "website": "https://cloud-dashboard.mguptahub.com/",
+    "github": "https://github.com/mguptahub/cloud-dashboard"
+  },
+  {
+    "name": "NanoHTTP",
+    "description": "Lightweight HTTP server and testing tool for developers.",
+    "tech": ["Go", "Docker"],
+    "website": "https://nanohttp.mguptahub.com/",
+    "github": "https://github.com/mguptahub/nanohttp"
+  },
+  {
+    "name": "NanoDNS",
+    "description": "Simple DNS management and testing utility.",
+    "tech": ["Python", "DNS"],
+    "website": "https://nanodns.mguptahub.com/",
+    "github": "https://github.com/mguptahub/nanodns"
+  }
+]
