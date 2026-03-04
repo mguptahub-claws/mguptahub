@@ -20,7 +20,7 @@ async function showBlog(blogId) {
         content.innerHTML = '<p>Loading...</p>';
 
         // Load blog metadata
-        const metaResponse = await fetch('blogs.json');
+        const metaResponse = await fetch('data/blogs.json');
         const blogs = await metaResponse.json();
         const blog = blogs.find(b => b.id === blogId);
 

@@ -79,7 +79,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Load Projects from JSON
 async function loadProjects() {
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch('data/projects.json');
         const projects = await response.json();
 
         const grid = document.getElementById('projectsGrid');
@@ -116,7 +116,7 @@ async function loadProjects() {
 // Load Skills from JSON
 async function loadSkills() {
     try {
-        const response = await fetch('skills.json');
+        const response = await fetch('data/skills.json');
         const skills = await response.json();
 
         const container = document.getElementById('skillsContainer');
@@ -136,7 +136,7 @@ async function loadSkills() {
 // Load Blogs from JSON
 async function loadBlogs() {
     try {
-        const response = await fetch('blogs.json');
+        const response = await fetch('data/blogs.json');
         const blogs = await response.json();
 
         const grid = document.getElementById('blogsGrid');
