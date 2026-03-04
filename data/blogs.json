@@ -1,26 +1,10 @@
 [
   {
-    "id": "building-scalable-microservices",
-    "title": "Building Scalable Microservices Architecture",
-    "date": "2026-03-01",
-    "excerpt": "Explore best practices and patterns for designing microservices that scale with your business needs.",
-    "filename": "microservices.md",
-    "tags": ["Architecture", "Microservices", "Backend"]
-  },
-  {
-    "id": "modern-frontend-2026",
-    "title": "Modern Frontend Development in 2026",
-    "date": "2026-02-15",
-    "excerpt": "A comprehensive guide to the latest tools, frameworks, and techniques shaping frontend development.",
-    "filename": "frontend.md",
-    "tags": ["Frontend", "React", "Web Development"]
-  },
-  {
-    "id": "database-optimization",
-    "title": "Database Performance Optimization",
-    "date": "2026-02-01",
-    "excerpt": "Learn advanced techniques for improving database query performance and achieving better scalability.",
-    "filename": "database.md",
-    "tags": ["Database", "Performance", "Backend"]
+    "id": "ai-agents-saas-privacy",
+    "title": "The Double-Edged Sword: How AI Agents Are Transforming SaaS While Testing the Limits of Data Privacy",
+    "date": "2026-03-04",
+    "excerpt": "AI agents are revolutionizing SaaS, but 88% of organizations have experienced security incidents. Explore the critical balance between innovation and data privacy in the age of autonomous AI systems.",
+    "filename": "ai-agents-saas-privacy.md",
+    "tags": ["AI", "SaaS", "Security", "Privacy", "Enterprise"]
   }
 ]
