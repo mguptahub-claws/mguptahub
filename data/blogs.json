@@ -1,5 +1,13 @@
 [
   {
+    "id": "ai-code-quality-impact",
+    "title": "AI's Impact on Code Quality: The Paradox",
+    "date": "2026-02-13",
+    "excerpt": "AI tools help developers code 55% faster, yet real-world studies show they're actually 19% slower. Explore the paradox of how AI both improves and undermines code quality.",
+    "filename": "ai-code-quality-impact.md",
+    "tags": ["AI", "Code Quality", "Development", "Technical Debt"]
+  },
+  {
     "id": "ai-agents-saas-privacy",
     "title": "AI Agents and SaaS: The Double-Edged Sword",
     "date": "2026-02-10",
