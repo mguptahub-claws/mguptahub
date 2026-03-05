@@ -503,11 +503,27 @@ body {
 .blog-content table {
     width: 100%;
     border-collapse: collapse;
-    margin: 2rem 0;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: 0.5rem;
-    overflow: hidden;
+}
+
+/* Table scroll wrapper for mobile */
+.blog-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 2rem 0;
+}
+
+.blog-content table thead,
+.blog-content table tbody {
+    display: table;
+    width: 100%;
+}
+
+.blog-content table tr {
+    display: table-row;
 }
 
 .blog-content th {
