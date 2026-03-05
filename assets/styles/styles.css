@@ -489,6 +489,48 @@ body {
     line-height: 1.8;
 }
 
+.blog-content ul,
+.blog-content ol {
+    margin-left: 1.4rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.blog-content li {
+    margin-bottom: 0.5rem;
+}
+
+.blog-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.blog-content th {
+    background: var(--accent);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+}
+
+.blog-content td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.blog-content tr:last-child td {
+    border-bottom: none;
+}
+
+.blog-content tr:hover {
+    background: var(--accent);
+}
+
 .blog-content code {
     background: var(--accent);
     padding: 0.2rem 0.4rem;
