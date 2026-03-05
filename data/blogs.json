@@ -5,7 +5,18 @@
     "date": "2026-03-05",
     "excerpt": "From OpenClaw's 246K stars to an ecosystem of 12+ variants - explore how personal AI agents evolved from monolith to minimalism, each optimizing for security, performance, or simplicity.",
     "filename": "evolution-of-claws.md",
-    "tags": ["AI Agents", "Open Source", "Security", "Performance"]
+    "tags": [
+      "AI Agents",
+      "Open Source",
+      "Security",
+      "Performance"
+    ],
+    "bannerImage": "assets/images/blog-banners/evolution-of-claws.jpg",
+    "bannerCredit": {
+      "photographerName": "BoliviaInteligente",
+      "photographerUrl": "https://unsplash.com/@boliviainteligente",
+      "unsplashUrl": "https://unsplash.com/photos/a-circular-maze-with-the-words-open-ai-on-it-VimHVpBr-9E"
+    }
   },
   {
     "id": "ai-code-quality-impact",
@@ -13,7 +24,18 @@
     "date": "2026-02-13",
     "excerpt": "AI tools help developers code 55% faster, yet real-world studies show they're actually 19% slower. Explore the paradox of how AI both improves and undermines code quality.",
     "filename": "ai-code-quality-impact.md",
-    "tags": ["AI", "Code Quality", "Development", "Technical Debt"]
+    "tags": [
+      "AI",
+      "Code Quality",
+      "Development",
+      "Technical Debt"
+    ],
+    "bannerImage": "assets/images/blog-banners/ai-code-quality-impact.jpg",
+    "bannerCredit": {
+      "photographerName": "Hitesh Choudhary",
+      "photographerUrl": "https://unsplash.com/@hiteshchoudhary",
+      "unsplashUrl": "https://unsplash.com/photos/smiling-man-showing-sticky-note-with-code-illustration-pMnw5BSZYsA"
+    }
   },
   {
     "id": "ai-agents-saas-privacy",
@@ -21,6 +43,18 @@
     "date": "2026-02-10",
     "excerpt": "AI agents are revolutionizing SaaS, but 88% of organizations have experienced security incidents. Explore the critical balance between innovation and data privacy in the age of autonomous AI systems.",
     "filename": "ai-agents-saas-privacy.md",
-    "tags": ["AI", "SaaS", "Security", "Privacy", "Enterprise"]
+    "tags": [
+      "AI",
+      "SaaS",
+      "Security",
+      "Privacy",
+      "Enterprise"
+    ],
+    "bannerImage": "assets/images/blog-banners/ai-agents-saas-privacy.jpg",
+    "bannerCredit": {
+      "photographerName": "Peter Conrad",
+      "photographerUrl": "https://unsplash.com/@pconrad",
+      "unsplashUrl": "https://unsplash.com/photos/a-red-security-sign-and-a-blue-security-sign-UA8PwPht1Vw"
+    }
   }
 ]

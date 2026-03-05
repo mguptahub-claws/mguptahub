@@ -469,6 +469,38 @@ body {
     max-width: 100%;
 }
 
+/* Blog Banner Image */
+.blog-banner {
+    margin-bottom: 2rem;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.blog-banner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-banner-credit {
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+    padding: 0.5rem;
+    background: var(--accent);
+    text-align: right;
+}
+
+.blog-banner-credit a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.blog-banner-credit a:hover {
+    text-decoration: underline;
+}
+
 .blog-content h1 {
     font-size: 1.75rem;
     margin-bottom: 1.5rem;

@@ -38,7 +38,15 @@ async function showBlog(blogId) {
 
         // Render blog
         const html = marked.parse(markdown);
+        const bannerHtml = blog.bannerImage ? `
+            <div class="blog-banner">
+                <img src="${blog.bannerImage}" alt="${blog.title}" />
+                ${blog.bannerCredit ? `<div class="blog-banner-credit">Photo by <a href="${blog.bannerCredit.photographerUrl}?utm_source=mguptahub&utm_medium=referral" target="_blank">${blog.bannerCredit.photographerName}</a> on <a href="https://unsplash.com?utm_source=mguptahub&utm_medium=referral" target="_blank">Unsplash</a></div>` : ''}
+            </div>
+        ` : '';
+
         content.innerHTML = `
+            ${bannerHtml}
             <div class="blog-date"><i class="fas fa-calendar"></i> ${new Date(blog.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
             ${blog.tags ? `<div class="blog-tags">${blog.tags.map(tag => `<span class="blog-tag">${tag}</span>`).join('')}</div>` : ''}
             <div style="margin-top: 1rem;">${html}</div>
