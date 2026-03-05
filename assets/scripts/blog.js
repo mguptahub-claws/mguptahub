@@ -41,7 +41,6 @@ async function showBlog(blogId) {
         const bannerHtml = blog.bannerImage ? `
             <div class="blog-banner">
                 <img src="${blog.bannerImage}" alt="${blog.title}" />
-                ${blog.bannerCredit ? `<div class="blog-banner-credit">Photo by <a href="${blog.bannerCredit.photographerUrl}?utm_source=mguptahub&utm_medium=referral" target="_blank">${blog.bannerCredit.photographerName}</a> on <a href="https://unsplash.com?utm_source=mguptahub&utm_medium=referral" target="_blank">Unsplash</a></div>` : ''}
             </div>
         ` : '';
 
