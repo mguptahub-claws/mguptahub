@@ -470,17 +470,17 @@ body {
 }
 
 .blog-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
 }
 
 .blog-content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 2rem 0 1rem;
 }
 
 .blog-content h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 1.5rem 0 1rem;
 }
 
@@ -532,6 +532,9 @@ body {
     text-align: left;
     font-weight: 600;
     border-bottom: 2px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .blog-content td {
