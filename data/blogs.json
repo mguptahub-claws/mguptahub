@@ -1,5 +1,13 @@
 [
   {
+    "id": "evolution-of-claws",
+    "title": "The Claw Wars: Evolution of Personal AI Agents",
+    "date": "2026-03-05",
+    "excerpt": "From OpenClaw's 246K stars to an ecosystem of 12+ variants - explore how personal AI agents evolved from monolith to minimalism, each optimizing for security, performance, or simplicity.",
+    "filename": "evolution-of-claws.md",
+    "tags": ["AI Agents", "Open Source", "Security", "Performance"]
+  },
+  {
     "id": "ai-code-quality-impact",
     "title": "AI's Impact on Code Quality: The Paradox",
     "date": "2026-02-13",
